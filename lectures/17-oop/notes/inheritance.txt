@@ -110,6 +110,12 @@ NOTE: Declaring a class as final implicitly declares all of its methods as final
 As you might expect, it is illegal to declare a class as both abstract and final since an abstract class is incomplete
 by itself & relies upon its subclasses to provide complete implementations.
 
+..........................................................................................................
+
+READ THIS AFTER STATIC FILE 
+
+...............................//////////////////////.....................................................
+
 # NOTE: Although static methods can be inherited ,there is no point in overriding them in child classes because the
 method in parent class will run always no matter from which object you call it. That is why static interface methods
 cannot be inherited because these method will run from the parent interface and no matter if we were allowed to
